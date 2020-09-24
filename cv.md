@@ -20,7 +20,10 @@
    * JavaScript: Elementary level
    * HTML&CSS: Intermediate level
    * PHP: Elementary level
-
+   * 3D printting: Master level
+* Development tools: Dreamweaver, VSCode
+* Operating system: Windows, Linux
+* Version control system: Git
 
 ## Code examples
 ``` JavaScript
