@@ -1,0 +1,149 @@
+html {
+  scroll-behavior: smooth;
+  background: url(body-background.png) #eae6d1;
+  font: 14px/22px "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.CodeStyle {
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background: #333333;
+  border-radius: 3px;
+  border: 1px solid #c7c7c7;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  max-width: 1024px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  border-radius: 4px 4px 4px 4px;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  width: 90%;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  background: url(body-background.png) #eae6d1;
+}
+
+li {
+  list-style-image: url(bullet.png);
+}
+
+a {
+  color: #3399cc;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 24px;
+  color: #393939;
+}
+
+footer {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  background: url(body-background.png) #eae6d1;
+  position: fixed;
+  bottom: 0px;
+}
+
+section {
+  max-width: 300px;
+  padding: 1px 20px 1px 20px;
+}
+
+#mainNav {
+  background-color: #f60;
+  font-size: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#mainNav ul {
+  font-size: 12px;
+}
+
+#mainNav i {
+  font-size: 3em;
+}
+
+#mainNav li {
+  display: inline-block;
+}
+
+#mainNav a {
+  font-size: 1.5em;
+  display: block;
+  height: inherit;
+  margin: 0;
+  text-decoration: none;
+}
+
+#mainNav a:hover {
+  transition: background 0.25s ease;
+}
+
+#mainNav li .sub-menu {
+  background: url(body-background.png) #eae6d1;
+  position: absolute;
+  text-align: center;
+  left: -9999px;
+  opacity: 0;
+  transition: opacity 0.75s;
+  width: 100%;
+  z-index: 10;
+}
+
+#mainNav li:hover .sub-menu {
+  left: 0px;
+  opacity: 1;
+}
+
+#mainNav .sub-menu a {
+  height: 1em;
+  line-height: 2em;
+  padding: 10px 10px 11px 10px;
+  height: inherit;
+  width: 100%;
+}
+
+#mainNav .sub-menu a:hover {
+  background-color: #333333;
+  color: #fff;
+}
+
+#Cod {
+  padding: 1px 20px 1px 20px;
+  max-width: 500px;
+}
